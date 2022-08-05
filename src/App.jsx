@@ -9,6 +9,16 @@ function App() {
   const [paciente, setPaciente] = useState({});
 
   useEffect(() => {
+    const obtenerLS = () => {
+      //Si no hay nada en LS agregar un arreglo vacío
+      const pacientesLS = JSON.parse(localStorage.getItem('Pacientes'))?? [];
+      setPacientes(pacientesLS)
+    }
+    obtenerLS();
+  }, [third])
+  
+
+  useEffect(() => {
     localStorage.setItem('pacientes', JSON.stringify(pacientes));
   }, [pacientes])
 
