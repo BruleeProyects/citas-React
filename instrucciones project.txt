@@ -1,5 +1,0 @@
-para el archivo del curso
-
-npm install
-npm run dev
-meter el puerto en el navegador chrome
