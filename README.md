@@ -1,3 +1,4 @@
 Proyecto gestión de citas veterinarias en React con TailwindCSS, Vite y mucho más.
+para arrancar el proyecto en consola: npm run dev
 
-Puedes visitarlo en: https://papaya-crostata-33b038.netlify.app/
+Puedes visitarlo en: https://citas-react-bruleeproyects.netlify.app/
